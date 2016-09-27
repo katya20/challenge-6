@@ -7,4 +7,6 @@ body {
 
 .element-quantity-input {	  
   margin-top: 1px;
+  border: blue;
+  
 }
