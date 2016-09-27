@@ -3,9 +3,9 @@ var quantityInput = $(".element-quantity-input")
 quantityInput.keydown(function(e) {
   var keyCode = e.keydown;
   var inputValue = quantityInput.val();
-  console.log (e.keyCode);
+  console.log ("hi");
   // enter key!
-  if (keyCode == 13) {	
+  if (keyCode === 13) {	
     addElementsToThePage(inputValue);
     console.log("enter");
   }
