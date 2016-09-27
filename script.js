@@ -1,14 +1,8 @@
 var quantityInput = $(".element-quantity-input")
 
-function addElementsToThePage(numberOfElements) {	  
-  for (var i = 0; i < 5; i++) {
-    var newEl = $("<div class='new-el'>Hi there!</div>");		
-    $(".element-display").append(newEl);
-  }
-}
 
 quantityInput.keydown(function(e) {
-  var keyCode = e.keydown;
+  var keyCode = e.keye;
   var inputValue = quantityInput.val();
   console.log ("hi");
   // enter key!
@@ -17,4 +11,11 @@ quantityInput.keydown(function(e) {
     addElementsToThePage(inputValue);  
   }
 })
+
+function addElementsToThePage(numberOfElements) {	  
+  for (var i = 0; i < 5; i++) {
+    var newEl = $("<div class='new-el'>Hi there!</div>");		
+    $(".element-display").append(newEl);
+  }
+}
 
