@@ -10,7 +10,7 @@ function addElementsToThePage(numberOfElements) {
 quantityInput.keydown(function(e) {
   var keyCode = e.keydown;
   var inputValue = quantityInput.val();
-  
+  console.log ("hi");
   // enter key!
   if (keyCode == 13) {	
     console.log("enter");
