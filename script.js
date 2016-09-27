@@ -7,7 +7,7 @@ quantityInput.keydown(function(e) {
   // enter key!
   if (keyCode == 13) {	
     addElementsToThePage(inputValue);
-    console.log (
+    console.log ("enter");
   }
 })
 
